@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+
+    .who-i {
+        font-size: 40px;
+    }
+
+    .i-web {
+        font-size: 35px;
+    }
+
+    .my-projects, .line-links, .contacts {
+        font-size: 15px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .section:nth-child(3),
+    .section:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .projects {
+        padding: 20px;
+    }
+
+    .section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box {
+    transform: translateY(-8%);
+    }
+
+    @media (max-width: 768px) {
+
+        /* Other existing styles... */
+    
+        .box-title,
+        .box-tag,
+        .box-text {
+            text-align: center;
+            font-size: 14px;
+        }
+    
+        .box-title {
+            padding-bottom: 15px;
+        }
+    
+        .box-tag {
+            font-size: 12px;
+        }
+    
+        .box-text {
+            padding: 10px;
+            font-size: 12px;
+        }
+    
+        /* Additional styles if needed... */
+    }
+    
+
+    .svg-1 {
+        width: 35px;
+    }
+
+    .svg-2 {
+        width: 45px;
+    }
+
+    .im-rostik {
+        font-size: 15px;
+    }
+
+    .who-i-am {
+        font-size: 10px;
+        height: 100px;
+    }
+
+    #p-work-main {
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+    .box {
+        transform: translateY(-6%);
+    }
+
+    .box-title,
+        .box-tag,
+        .box-text {
+            text-align: center;
+            font-size: 22px;
+        }
+    
+        .box-title {
+            padding-bottom: 15px;
+        }
+    
+        .box-tag {
+            font-size: 18px;
+        }
+    
+        .box-text {
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .p-work-about {
+            font-size: 17px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .button-text {
+            font-size: 20px;
+        }
+
+        .main-button-text {
+            font-size: 15px;
+        }
+
+        .img-cont {
+            width: 40px;
+        }
+}
